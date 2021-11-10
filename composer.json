@@ -1,6 +1,6 @@
 {
     "name": "alvarium-digital/permissions-makr",
-    "description": "Generalize the management of your users permissions",
+    "description": "Generalize the management of your application users permissions",
     "type": "library",
     "license": "MIT",
     "authors": [
