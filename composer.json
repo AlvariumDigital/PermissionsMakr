@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AlvariumDigital\\WorkflowMakr\\": "src/"
+            "AlvariumDigital\\PermissionsMakr\\": "src/"
         }
     },
     "minimum-stability": "dev",
