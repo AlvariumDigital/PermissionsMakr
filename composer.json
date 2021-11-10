@@ -1,0 +1,38 @@
+{
+    "name": "alvarium-digital/permissions-makr",
+    "description": "Generalize the management of your users permissions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alvarium Group",
+            "email": "contact@alvariumgroup.com",
+            "homepage": "www.alvariumgroup.com",
+            "role": "Corporate"
+        },
+        {
+            "name": "EL OUFIR Hatim",
+            "email": "heloufir@alvariumgroup.com",
+            "homepage": "https://www.linkedin.com/in/eloufirhatim/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "heloufir@alvariumgroup.com"
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlvariumDigital\\PermissionsMakr\\PermissionsMakrServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AlvariumDigital\\WorkflowMakr\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
